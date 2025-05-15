@@ -9,9 +9,9 @@ st.title("TP-Link Nordic GTM Tool")
 
 # 示例项目数据（你可以在这里替换成实际数据）
 data = [
-    {"Project": "Weekly Sell-out Tracker", "URL": "https://example.com/sellout"},
-    {"Project": "Inventory Dashboard", "URL": "https://example.com/inventory"},
-    {"Project": "Price Monitoring", "URL": "https://example.com/pricing"},
+    {"Project": "New product Image", "URL": "https://drive.google.com/drive/folders/1ckt31QAXB7tRdBMK5nL9k2hJVxSyaRBb?usp=drive_link"},
+    {"Project": "Elkjop Price Lookup", "URL": "https://elkjoplookup.streamlit.app/"},
+    {"Project": "Elkjop Price Download", "URL": "https://elkjopdownload.streamlit.app/"},
 ]
 
 # 转换为 DataFrame 并格式化 URL
