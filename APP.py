@@ -12,6 +12,8 @@ data = [
     {"Project": "New product Image", "URL": "https://docs.google.com/spreadsheets/d/1pI3Fd9vRP4hqwqSKaC8A_NewI9tDiD9zQuVP0OjhqEk/edit?usp=sharing"},
     {"Project": "Elkjop Price Lookup", "URL": "https://elkjoplookup.streamlit.app/"},
     {"Project": "Elkjop Price Download", "URL": "https://elkjopdownload.streamlit.app/"},
+    {"Project": "Kjell Price Download", "URL": "https://kjellpricedownload.streamlit.app/"},
+    
 ]
 
 # 转换为 DataFrame 并格式化 URL
