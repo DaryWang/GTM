@@ -4,32 +4,6 @@ import pandas as pd
 # ✅ 这必须是第一个 Streamlit 调用
 st.set_page_config(page_title="TP-Link Nordic GTM Tool", layout="wide")
 
-# 设置背景
-def set_background_image(url):
-    st.markdown(
-        f"""
-        <style>
-        html, body {{
-            height: 100%;
-            margin: 0;
-            background-image: url("{url}");
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-        }}
-        .stApp {{
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 2rem;
-            border-radius: 12px;
-        }}
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-
-# 应用背景
-set_background_image("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1950&q=80")
-
 # 页面主标题
 st.title("TP-Link Nordic GTM Tool")
 
