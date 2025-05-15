@@ -28,7 +28,7 @@ def set_background_image(url):
     )
 
 # 应用背景
-set_background_image("https://static.wallhaven.cc/images/layout/blue-gradients.020-wh.jpg")
+set_background_image("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1950&q=80")
 
 # 页面主标题
 st.title("TP-Link Nordic GTM Tool")
